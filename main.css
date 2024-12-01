@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+
+    margin-top: 20px;
+    align-items: center;
+}
+
+.navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-btn{
+    border: none;
+    width: 256px;
+    height: 36px;
+    border-radius: 12px;
+    background-color: rgb(252, 0, 74);
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 14.75px;
+font-weight: 400;
+text-align: center;
+transition: 0.5s ease-in-out;
+
+}
+.header-btn:hover{
+    box-shadow: black 5PX 5PX 5PX 5PX ;
+    text-shadow: black 5px 5px 5px;
+}
+.header-link{
+    color: black;
+font-family: Inter;
+font-size: 15.13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header-link:hover{
+    color:yellow ;
+}
+.header-burger{
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+@media (max-width: 816px){
+    .header-logo{
+       display: none;
+    }
+}
+@media (max-width: 616px){
+    .header-list{
+       display: none;
+    }
+    .header-burger{
+        display: block;
+    }
+}
+.wrapper{
+    padding-top: 63px;
+    padding: 100px;
+}
+.hero__p{
+    color: rgb(252, 0, 74);
+    padding-top: 20px;
+
+}
+.hero__h2{
+    transition: 0.5s ease-in-out;
+}
+.hero__h2:hover{
+    color: blue;
+}
+.header2{
+    padding-top: 81px;
+}
+.container2{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list2{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header__link2{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header__link2:hover{
+    color: red;
+}
+.wrapper2{
+    display: flex;
+flex-wrap: wrap;
+}
+@media (max-width:700px) {
+    .wrapper2{
+        flex-wrap: wrap;
+    }
+}
